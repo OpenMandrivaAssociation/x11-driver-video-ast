@@ -1,6 +1,6 @@
 Name: x11-driver-video-ast
 Version: 0.87.0
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: X.org driver for ASPEED Technology Inc
 Group: System/X11
 URL: http://xorg.freedesktop.org
