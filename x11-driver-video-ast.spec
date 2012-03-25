@@ -1,11 +1,11 @@
 Name: x11-driver-video-ast
-Version: 0.93.9
+Version: 0.93.10
 Release: 1
 Summary: X.org driver for ASPEED Technology Inc
 Group: System/X11
 License: MIT
 URL: http://xorg.freedesktop.org
-Source: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ast-%{version}.tar.bz2
+Source0: http://xorg.freedesktop.org/releases/individual/driver/xf86-video-ast-%{version}.tar.bz2
 
 BuildRequires: x11-proto-devel >= 1.0.0
 BuildRequires: x11-server-devel >= 1.0.1
@@ -25,11 +25,9 @@ x11-driver-video-ast is the X.org driver for ASPEED Technology Inc.
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall_std
 find %{buildroot} -type f -name "*.la" -exec rm -f {} ';'
 
 %files
 %doc COPYING
 %{_libdir}/xorg/modules/drivers/ast_drv.so
-
