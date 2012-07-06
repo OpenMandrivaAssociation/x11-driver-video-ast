@@ -1,5 +1,5 @@
 Name: x11-driver-video-ast
-Version: 0.95.00
+Version: 0.96.0
 Release: 1
 Summary: X.org driver for ASPEED Technology Inc
 Group: System/X11
