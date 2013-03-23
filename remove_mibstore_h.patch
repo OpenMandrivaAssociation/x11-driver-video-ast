@@ -1,0 +1,70 @@
+--- xf86-video-ast-0.97.0/src/ast_vgatool.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_vgatool.c	2013-03-23 22:47:06.869588847 +0000
+@@ -27,7 +27,6 @@
+ #include "xf86_OSproc.h"
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_2dtool.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_2dtool.c	2013-03-23 22:47:45.238588910 +0000
+@@ -27,7 +27,6 @@
+ #include "xf86_OSproc.h"
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_cursor.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_cursor.c	2013-03-23 22:48:09.349588799 +0000
+@@ -27,7 +27,6 @@
+ #include "xf86_OSproc.h"
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_mode.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_mode.c	2013-03-23 22:48:31.137587839 +0000
+@@ -27,7 +27,6 @@
+ #include "xf86_OSproc.h"
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_tool.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_tool.c	2013-03-23 22:48:50.719587501 +0000
+@@ -27,7 +27,6 @@
+ #include "xf86_OSproc.h"
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_driver.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_driver.c	2013-03-23 22:49:38.880586735 +0000
+@@ -31,7 +31,6 @@
+ #endif
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_accel.c~	2012-07-17 03:50:58.000000000 +0000
++++ xf86-video-ast-0.97.0/src/ast_accel.c	2013-03-23 22:50:16.191586368 +0000
+@@ -27,7 +27,6 @@
+ #include "xf86_OSproc.h"
+ #include "xf86cmap.h"
+ #include "compiler.h"
+-#include "mibstore.h"
+ #include "vgaHW.h"
+ #include "mipointer.h"
+ #include "micmap.h"
