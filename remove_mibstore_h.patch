@@ -68,3 +68,13 @@
  #include "vgaHW.h"
  #include "mipointer.h"
  #include "micmap.h"
+--- xf86-video-ast-0.97.0/src/ast_driver.c~	2013-04-06 02:34:10.536875585 +0200
++++ xf86-video-ast-0.97.0/src/ast_driver.c	2013-04-06 02:34:43.500701275 +0200
+@@ -888,7 +888,6 @@ ASTScreenInit(SCREEN_INIT_ARGS_DECL)
+    }
+ #endif /* end of Accel_2D */
+      
+-   miInitializeBackingStore(pScreen);
+    xf86SetBackingStore(pScreen);
+    xf86SetSilkenMouse(pScreen);
+ 
