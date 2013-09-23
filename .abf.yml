@@ -1,2 +1,4 @@
+removed_sources:
+  xf86-video-ast-0.97.0.tar.bz2: 11cb9a687cec6f0943ad6b9a47434815334d2a20
 sources:
-  "xf86-video-ast-0.97.0.tar.bz2": 11cb9a687cec6f0943ad6b9a47434815334d2a20
+  xf86-video-ast-0.98.0.tar.bz2: de3f0dca20ae233ff7576728e61dc424f6d4b249
