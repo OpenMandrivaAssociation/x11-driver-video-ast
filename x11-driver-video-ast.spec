@@ -1,5 +1,9 @@
 %define _disable_ld_no_undefined 1
 
+%ifarch 
+i586 export CC=gcc 
+%endif 
+
 Summary:	X.org driver for ASPEED Technology Inc
 Name:		x11-driver-video-ast
 Version:	1.0.1
