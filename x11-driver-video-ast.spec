@@ -19,7 +19,7 @@ x11-driver-video-ast is the X.org driver for ASPEED Technology Inc.
 
 %prep
 %setup -qn xf86-video-ast-%{version}
-%apply_patches
+%autopatch -p1
 
 %build
 %configure
