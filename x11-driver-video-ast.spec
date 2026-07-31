@@ -3,7 +3,7 @@
 
 Summary:	X.org driver for ASPEED Technology Inc
 Name:		x11-driver-video-ast
-Version:	1.2.0
+Version:	1.2.1
 Release:	1
 Group:		System/X11
 License:	MIT
@@ -24,7 +24,7 @@ Requires:	x11-server-common %(xserver-sdk-abi-requires videodrv)
 x11-driver-video-ast is the X.org driver for ASPEED Technology Inc.
 
 %prep
-%setup -qn xf86-video-ast-%{version}
+%setup -qn xf86-video-ast-%{version} -n xf86-video-ast-1.2.1
 %autopatch -p1
 
 %build
